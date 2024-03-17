@@ -11,7 +11,7 @@ import SwiftUI
 struct SafetyToolboxApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ToolBoxListView()
         }
     }
 }

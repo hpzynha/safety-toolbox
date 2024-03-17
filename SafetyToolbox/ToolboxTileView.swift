@@ -8,11 +8,27 @@
 import SwiftUI
 
 struct ToolboxTileView: View {
+    let toolbox: Toolbox
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Spacer()
+            HStack {
+                Text(toolbox.title)
+                    .padding(.vertical,4)
+                    .padding(.horizontal)
+                    .bold()
+                    .foregroundStyle(.white)
+                Spacer()
+            }
+            .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
+            .background {
+                Color.purple
+                    .opacity(0.5)
+            }
+        }
     }
 }
 
 #Preview {
-    ToolboxTileView()
+    ToolboxTileView(toolbox: Toolbox(id: 1, title: "Safety", text: "jkakdjakld"))
 }

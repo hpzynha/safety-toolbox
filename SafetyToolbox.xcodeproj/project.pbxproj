@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		EC1D010F2BA6BAD500DAEB70 /* SafetyToolboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D010E2BA6BAD500DAEB70 /* SafetyToolboxApp.swift */; };
-		EC1D01112BA6BAD500DAEB70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D01102BA6BAD500DAEB70 /* ContentView.swift */; };
+		EC1D01112BA6BAD500DAEB70 /* ToolBoxListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D01102BA6BAD500DAEB70 /* ToolBoxListView.swift */; };
 		EC1D01132BA6BAD600DAEB70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1D01122BA6BAD600DAEB70 /* Assets.xcassets */; };
 		EC1D01162BA6BAD600DAEB70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1D01152BA6BAD600DAEB70 /* Preview Assets.xcassets */; };
 		EC1D01202BA6BAD600DAEB70 /* SafetyToolboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D011F2BA6BAD600DAEB70 /* SafetyToolboxTests.swift */; };
 		EC1D012A2BA6BAD600DAEB70 /* SafetyToolboxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D01292BA6BAD600DAEB70 /* SafetyToolboxUITests.swift */; };
 		EC1D012C2BA6BAD600DAEB70 /* SafetyToolboxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D012B2BA6BAD600DAEB70 /* SafetyToolboxUITestsLaunchTests.swift */; };
+		EC1D01392BA6C29400DAEB70 /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D01382BA6C29400DAEB70 /* HexColor.swift */; };
+		EC1D013B2BA6C65A00DAEB70 /* ToolBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D013A2BA6C65A00DAEB70 /* ToolBoxDetailView.swift */; };
+		EC1D013D2BA6C72800DAEB70 /* ToolBoxListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D013C2BA6C72800DAEB70 /* ToolBoxListRowView.swift */; };
+		EC1D01412BA6CE1C00DAEB70 /* Toolbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D01402BA6CE1C00DAEB70 /* Toolbox.swift */; };
+		EC1D01432BA6D38E00DAEB70 /* ToolboxTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1D01422BA6D38E00DAEB70 /* ToolboxTileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		EC1D010B2BA6BAD500DAEB70 /* SafetyToolbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SafetyToolbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1D010E2BA6BAD500DAEB70 /* SafetyToolboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyToolboxApp.swift; sourceTree = "<group>"; };
-		EC1D01102BA6BAD500DAEB70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC1D01102BA6BAD500DAEB70 /* ToolBoxListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBoxListView.swift; sourceTree = "<group>"; };
 		EC1D01122BA6BAD600DAEB70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC1D01152BA6BAD600DAEB70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC1D011B2BA6BAD600DAEB70 /* SafetyToolboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafetyToolboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,11 @@
 		EC1D01252BA6BAD600DAEB70 /* SafetyToolboxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafetyToolboxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC1D01292BA6BAD600DAEB70 /* SafetyToolboxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyToolboxUITests.swift; sourceTree = "<group>"; };
 		EC1D012B2BA6BAD600DAEB70 /* SafetyToolboxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafetyToolboxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC1D01382BA6C29400DAEB70 /* HexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
+		EC1D013A2BA6C65A00DAEB70 /* ToolBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBoxDetailView.swift; sourceTree = "<group>"; };
+		EC1D013C2BA6C72800DAEB70 /* ToolBoxListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBoxListRowView.swift; sourceTree = "<group>"; };
+		EC1D01402BA6CE1C00DAEB70 /* Toolbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toolbox.swift; sourceTree = "<group>"; };
+		EC1D01422BA6D38E00DAEB70 /* ToolboxTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolboxTileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +105,12 @@
 			isa = PBXGroup;
 			children = (
 				EC1D010E2BA6BAD500DAEB70 /* SafetyToolboxApp.swift */,
-				EC1D01102BA6BAD500DAEB70 /* ContentView.swift */,
+				EC1D01102BA6BAD500DAEB70 /* ToolBoxListView.swift */,
+				EC1D013C2BA6C72800DAEB70 /* ToolBoxListRowView.swift */,
+				EC1D013A2BA6C65A00DAEB70 /* ToolBoxDetailView.swift */,
+				EC1D01422BA6D38E00DAEB70 /* ToolboxTileView.swift */,
+				EC1D01382BA6C29400DAEB70 /* HexColor.swift */,
+				EC1D01402BA6CE1C00DAEB70 /* Toolbox.swift */,
 				EC1D01122BA6BAD600DAEB70 /* Assets.xcassets */,
 				EC1D01142BA6BAD600DAEB70 /* Preview Content */,
 			);
@@ -257,8 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC1D01112BA6BAD500DAEB70 /* ContentView.swift in Sources */,
+				EC1D01112BA6BAD500DAEB70 /* ToolBoxListView.swift in Sources */,
+				EC1D01392BA6C29400DAEB70 /* HexColor.swift in Sources */,
 				EC1D010F2BA6BAD500DAEB70 /* SafetyToolboxApp.swift in Sources */,
+				EC1D013D2BA6C72800DAEB70 /* ToolBoxListRowView.swift in Sources */,
+				EC1D013B2BA6C65A00DAEB70 /* ToolBoxDetailView.swift in Sources */,
+				EC1D01412BA6CE1C00DAEB70 /* Toolbox.swift in Sources */,
+				EC1D01432BA6D38E00DAEB70 /* ToolboxTileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

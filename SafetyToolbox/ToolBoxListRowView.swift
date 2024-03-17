@@ -9,10 +9,15 @@ import SwiftUI
 
 struct ToolBoxListRowView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Title")
+                .bold()
+            Text("#")
+        }
     }
 }
 
 #Preview {
     ToolBoxListRowView()
 }
+

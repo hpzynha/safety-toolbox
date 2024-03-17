@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct Toolbox: Identifiable, Codable{
+    var id: Int
+    var title: String
+    var text: String
+}
